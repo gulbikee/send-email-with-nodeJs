@@ -23,7 +23,7 @@ var express = require('express'),
           }
       });
       let mailOptions = {
-          from: '"Krunal Lathiya" <xx@gmail.com>', // sender address
+          from: '"Gülbike Aydın" <xx@gmail.com>', // sender address
           to: req.body.to, // list of receivers
           subject: req.body.subject, // Subject line
           text: req.body.body, // plain text body
